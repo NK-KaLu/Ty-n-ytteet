@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background: rgb(207, 255, 245);
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background:rgb(224, 223, 223);
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.categorycontainer {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: 20%;
+  padding-top: 5%;
+}
+
+.header {
+  overflow: hidden;
+  height: 80px;
+  background-color: white;
+
+}
+
+.header a {
+  color: inherit;
+}
+
+.header a:hover {
+  font-weight: bold;
+  margin-block: 300px;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 15px;
+  width: auto;
+
+}
+
+.header-nav {
+  float: right;
+  padding-right: 5%;
+  font-size: 20px;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: rgb(207, 255, 247);
+}
+
+
+.product span {
+  font-weight: bold;
+}
+
+.product-image img {
+  display: block;
+  width: 190x;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.row .product:last-child {
+  margin-right: 0;
+}
+
+.product-add-to-cart {
+  overflow: hidden;
+  clear: both;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  float: right;
+}
+
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  min-height: 300px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background: wheat;
+}
+
+.shopping-cart-head {
+  background: steelblue;
+  color: white;
+  padding: 5px;
+}
+
+.shopping-cart,
+.shopping-cart-head {
+  border-radius: 5px;
+}
+
+.empty-cart-btn,
+.cart-checkout {
+  display: none;
+  
+}
+
+.empty-cart-btn {
+  margin-bottom: 5px;
+}
+
+.cart-checkout {
+  background: limegreen;
+}
+.ostokoriTuotteet{
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 25px;
+}
+.ostostenSumma{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: aliceblue;
+  max-width: 300px;
+  padding: 3px;
+}
+.ostokorinTiedotAla{
+  background-color: aliceblue;
+  padding:10px;
+  text-align: center;
+  width: 850px;
+}
+.form-control{
+  height: 30px;
+}
+.etusivunTekstiLinkki{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px; 
+  color: black;
+}
+.EtusivunTeksti{
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%); 
+  font-size: 18px;
+  color: black;
+  text-align:center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.kuvaDivEtusivu{
+  position: relative;
+  opacity: 90%;
+}
+.EtusivunAlaOsio{
+  text-align:center;
+}

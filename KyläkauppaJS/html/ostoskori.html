@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+  
+  </head>
+  <body>  
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+   <div class="container">
+    <header class="header">
+      <h1 class="header-logo">Kyläkauppa Revontuli</h1>
+      
+      <nav class="header-nav">
+        <ul>
+          <a href="../index.html">🏠 Etusivu</a>
+          <a href="kategoriat.html">📃 Kategoriat</a>
+        </ul>
+      </nav>
+    </header>
+    <h3 for="ostokset">Tuotteet ostoskorissa:</h3>
+    <ul id="ostokset" class="ostokoriTuotteet"></ul>
+    <div id="hinta" class="ostostenSumma"></div>
+    &nbsp;
+   <div class="ostokorinTiedotAla"> 
+    <p>Täytäthän alla olevat tiedot noutoa varten:</p>
+   
+    <form action="" id="tunnistus">
+      <input type="text" id="nimi" class="form-control" placeholder="Enter your name...">
+      <input type="tel" id="puhnro" class="form-control" placeholder="Enter your phone number...">
+      <div style="padding-top: 15px;">
+        <button type="submit" style="height: 25px; font-size: 14px;">Lähetä tilaus</button>
+      </div>
+      
+    </form>
+    <p>Saat tekstiviestin kun tuotteet voi noutaa kyläkaupalta.</p>
+    <p style="font-weight: bold;">Huom! Kauppa auki 9-16, tilaukset samalle päivälle tilattava klo 15 mennessä!</p>
+  </div>
+  &nbsp;
+      
+ </main>
+ 
+
+      <!-- Script Js -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+      <script src="../js/ostoskori.js"></script>
+      
+  </body>
+  
+</html>
