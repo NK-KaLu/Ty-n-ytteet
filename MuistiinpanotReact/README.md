@@ -1,0 +1,1 @@
+Parityönä tehty muistiinpanosovellus.
