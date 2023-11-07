@@ -1,0 +1,50 @@
+.body2{
+    padding: 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 95%;
+    width: 40rem;
+    text-align: center;
+}
+
+.body2 h1{
+    background-color: #4288f0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: black;
+    text-shadow: 1px 1px gray;
+    font-size: 50px;
+}
+
+.body2 section{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.body2 div{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(240, 221, 184);
+    
+}
+
+.bcancel{
+    background-color: rgb(218, 72, 72);
+    font-size: 16px;
+    border: 0;
+    padding:5px;
+    border-radius: 15%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.bsubmit{
+    background-color: #4288f0cc;
+    font-size: 16px;
+    border: 0;
+    padding:5px;
+    border-radius: 15%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
