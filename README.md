@@ -1,2 +1,2 @@
-Joitain pieniä projekteja joita mitä on tullut tehtyä.
-En ole lisännyt tänne mitää suoraan esimerkeistä kopsattua.
+Joitain pieniä projekteja mitä on tullut tehtyä.
+Olen lisännyt tänne projekteja joissa osaamista on pitänyt soveltaa, eikä vain tehdä esimerkin perässä. 
