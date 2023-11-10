@@ -1,5 +1,6 @@
 Tein saman sovelluksen C++ sekä Javalla, joka ylläpitää dataa myytävänä olevista autoista.
 Ylläpidettävään dataan kuuluu auton
+
 • Valmistaja
 • Malli
 • Mittarilukema
