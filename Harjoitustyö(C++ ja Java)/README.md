@@ -1,10 +1,5 @@
-Tein saman sovelluksen C++ sekä Javalla, joka ylläpitää dataa myytävänä olevista autoista.
-Ylläpidettävään dataan kuuluu auton
-
-• Valmistaja
-• Malli
-• Mittarilukema
-• Hinta
+Tein saman sovelluksen sekä C++:lla että Javalla, joka ylläpitää dataa myytävänä olevista autoista.
+Ylläpidettävään dataan kuuluu auton valmistaja, malli, mittarilukema ja hinta.
 
 Data on säilöttynä tehtävänannossa ehdotettuihin tietorakenteisiin eli vector -
 tietorakenteessa (C++) ja ArrayList -tietorakenteessa (Java).
