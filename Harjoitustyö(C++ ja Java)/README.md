@@ -1,11 +1,8 @@
 Tein saman sovelluksen sekä C++:lla että Javalla, joka ylläpitää dataa myytävänä olevista autoista.
 Ylläpidettävään dataan kuuluu auton valmistaja, malli, mittarilukema ja hinta.
 
-Data on säilöttynä tehtävänannossa ehdotettuihin tietorakenteisiin eli vector -
-tietorakenteessa (C++) ja ArrayList -tietorakenteessa (Java).
-Kummassakin versiossa pääohjelma toimii silmukalla, jossa valikkona käytetty 
-switchiä.
+C++-versiossa data on säilöttynä vector-tietorakenteessa ja Java-versiossa ArrayList-tietorakenteessa.
+Kummassakin versiossa pääohjelma toimii silmukalla, jossa valikkona on käytetty switchiä.
 Autoja voi lisätä, poistaa ja etsiä sekä järjestää merkkikohtaisesti.
 
-
-pdf sisältää kuvankaappaukset sovelluksen ajamisesta sekä koodit.
+Pdf-tiedosto sisältää koodit sekä kuvankaappaukset sovelluksen ajamisesta.
